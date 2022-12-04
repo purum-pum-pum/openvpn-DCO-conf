@@ -77,7 +77,11 @@ Originally developed by James Yonan
 
 Copyright (C) 2002-2022 OpenVPN Inc <sales@openvpn.net>
 
-Compile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes **enable_dco=yes** enable_debug=yes enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=no enable_lzo=no enable_management=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=no enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_small=no enable_static=yes enable_strict=no enable_strict_options=no **enable_systemd=yes** enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes enable_x509_alt_username=no with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=yes with_mem_check=no with_openssl_engine=auto with_sysroot=no
+Compile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes **enable_dco=yes** enable_debug=yes enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=no enable_lzo=no enable_management=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=no enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_small=no enable_static=yes enable_strict=no enable_strict_options=no **enable_systemd=yes** enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes enable_x509_alt_username=no with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=yes with_mem_check=no with_openssl_engine=auto with_sysroot=no  
 
-
-
+#### 5) Конец
+Похдравляю, модуль ядра и openvpn утсновлены. Осталось только создать инфраструктуру сетрификатов с ключами, правишльные конфигиги vpn и правильные конфиги firewall. Пример конфига который работает у меня на сервре лежит в репозитории, а настройка детально описана например тут  
+https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-20-04-ru
+и тут  
+http://lithium.opennet.ru/articles/openvpn/openvpn-howto.html
+ https://adw0rd.com/2013/1/10/openvpn/#.Ue5cqFSKaa4 
