@@ -85,5 +85,5 @@ Compile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb
 и тут  
 [lithium.opennet.ru/articles/openvpn/openvpn-howto.html](http://lithium.opennet.ru/articles/openvpn/openvpn-howto.html)  
 [adw0rd.com/2013/1/10/openvpn/#.Ue5cqFSKaa4](https://adw0rd.com/2013/1/10/openvpn/#.Ue5cqFSKaa4)  
-[github.com/purum-pum-pum/](https://github.com/purum-pum-pum/)  
+<a href="https://github.com/purum-pum-pum/">github.com/purum-pum-pum/</a>  
 [github.com/purum-pum-pum/AIOGRAM_Python_edu](https://github.com/purum-pum-pum/AIOGRAM_Python_edu)  
