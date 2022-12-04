@@ -81,7 +81,7 @@ Compile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb
 
 #### 5) Конец
 Похдравляю, модуль ядра и openvpn утсновлены. Осталось только создать инфраструктуру сетрификатов с ключами, правишльные конфигиги vpn и правильные конфиги firewall. Пример конфига который работает у меня на сервре лежит в репозитории, а настройка детально описана например тут  
-https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-20-04-ru
+https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-openvpn-server-on-ubuntu-20-04-ru  
 и тут  
-http://lithium.opennet.ru/articles/openvpn/openvpn-howto.html
- https://adw0rd.com/2013/1/10/openvpn/#.Ue5cqFSKaa4 
+http://lithium.opennet.ru/articles/openvpn/openvpn-howto.html  
+https://adw0rd.com/2013/1/10/openvpn/#.Ue5cqFSKaa4   
