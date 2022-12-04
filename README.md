@@ -47,8 +47,8 @@ OpenVPN презентовал модуль ядра, который обеща�
 
 5) Проверяем, если у вас GUI то закрываем и открываем новый терминал и вводим команду
     openvpn --version
-Должно вывести что-то типо этого
-OpenVPN 2.6_git x86_64-pc-linux-gnu [SSL (OpenSSL)] [EPOLL] [MH/PKTINFO] [AEAD] [DCO]
+Должно вывести что-то типо этого, жзжирным выделил параметры которые должны строго совпадать с тем что у меня
+OpenVPN 2.6_git x86_64-pc-linux-gnu [SSL (OpenSSL)] [EPOLL] [MH/PKTINFO] [AEAD] <b>[DCO]</b>
 
 library versions: OpenSSL 3.0.2 15 Mar 2022
 
@@ -56,6 +56,6 @@ Originally developed by James Yonan
 
 Copyright (C) 2002-2022 OpenVPN Inc <sales@openvpn.net>
 
-Compile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes enable_dco=yes enable_debug=yes enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=no enable_lzo=no enable_management=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=no enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_small=no enable_static=yes enable_strict=no enable_strict_options=no enable_systemd=yes enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes enable_x509_alt_username=no with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=yes with_mem_check=no with_openssl_engine=auto with_sysroot=no
+Compile time defines: enable_async_push=no enable_comp_stub=no enable_crypto_ofb_cfb=yes <b>enable_dco=yes</b> enable_debug=yes enable_dlopen=unknown enable_dlopen_self=unknown enable_dlopen_self_static=unknown enable_fast_install=needless enable_fragment=yes enable_iproute2=no enable_libtool_lock=yes enable_lz4=no enable_lzo=no enable_management=yes enable_pam_dlopen=no enable_pedantic=no enable_pkcs11=no enable_plugin_auth_pam=yes enable_plugin_down_root=yes enable_plugins=yes enable_port_share=yes enable_selinux=no enable_shared=yes enable_shared_with_static_runtimes=no enable_small=no enable_static=yes enable_strict=no enable_strict_options=no <b>enable_systemd=yes</b> enable_werror=no enable_win32_dll=yes enable_wolfssl_options_h=yes enable_x509_alt_username=no with_aix_soname=aix with_crypto_library=openssl with_gnu_ld=yes with_mem_check=no with_openssl_engine=auto with_sysroot=no
 
 
