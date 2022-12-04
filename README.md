@@ -85,3 +85,5 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-and-configure-an-
 и тут  
 http://lithium.opennet.ru/articles/openvpn/openvpn-howto.html  
 https://adw0rd.com/2013/1/10/openvpn/#.Ue5cqFSKaa4   
+https://github.com/purum-pum-pum/  
+https://github.com/purum-pum-pum/AIOGRAM_Python_edu  
